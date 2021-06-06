@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
 
 * {
 	box-sizing: border-box;
 }
 
 body {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	background-color: #393e46;
 	color: #fff;
 	display: flex;
@@ -18,14 +18,14 @@ body {
 }
 
 .btn {
+	font-family: inherit;
 	background-color: #00adb5;
 	border: none;
-  cursor: pointer;
+	cursor: pointer;
 	color: #fff;
 	padding: 1.5rem;
 	border-radius: 10px;
 	font-size: 1rem;
-	font-weight: 200;
 	box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
 		rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
 		rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
@@ -36,19 +36,18 @@ body {
 }
 
 .messages {
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
 }
 
 .message {
-  padding: 1.5rem;
-  background-color: #fff;
-  color: #393e46;
-  border-radius: 10px;
-  margin: 10px;
+	padding: 1.5rem;
+	background-color: #fff;
+	color: #393e46;
+	border-radius: 10px;
+	margin: 10px;
 }
-
